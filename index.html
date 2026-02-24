@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Student Registration System</title>
+
+<style>
+body{
+    font-family: Arial;
+    background-color:#f2f6ff;
+}
+
+.container{
+    width:400px;
+    margin:auto;
+    margin-top:60px;
+    padding:25px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+h2{
+    text-align:center;
+    color:#2c3e50;
+}
+
+label{
+    font-weight:bold;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin:6px 0 15px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:48%;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.submit{
+    background:#28a745;
+    color:white;
+}
+
+.reset{
+    background:#dc3545;
+    color:white;
+}
+
+button:hover{
+    opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Student Registration</h2>
+
+<form>
+
+<label>Student Name</label>
+<input type="text" placeholder="Enter Student Name" required>
+
+<label>Register Number</label>
+<input type="text" placeholder="Enter Register Number" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter Phone Number">
+
+<label>Department</label>
+<select>
+<option>Computer Science</option>
+<option>Information Technology</option>
+<option>Data Science</option>
+<option>AI & ML</option>
+</select>
+
+<label>Year</label>
+<select>
+<option>I Year</option>
+<option>II Year</option>
+<option>III Year</option>
+<option>PG</option>
+</select>
+
+<button type="submit" class="submit">Register</button>
+<button type="reset" class="reset">Clear</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
